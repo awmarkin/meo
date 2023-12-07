@@ -1,0 +1,233 @@
+*{
+	margin: 0;
+}
+body{
+    position: relative;
+    color: #000;
+    font-size: 14px;
+    font-family: 'Roboto', Verdana,sans-serif;
+    font-weight: 400;
+    line-height: 160%;
+    min-height: 1080px;
+}
+p {
+	margin-bottom:30pt;
+}
+h1{
+	margin-bottom:30pt;
+}
+.home{
+    background: #714b51;
+    background: radial-gradient(circle, #714b51 0%, #000000 75%);
+}
+.about{
+	
+    background: #ab733d;
+    background: radial-gradient(circle, #ab733d 0%, #000000 75%);
+}
+.prices{
+	
+    background: #ab733d;
+    background: radial-gradient(circle, #ab733d 0%, #000000 75%);
+}
+.news{	
+    background: #ab733d;
+    background: radial-gradient(circle, #ab733d 0%, #000000 75%);
+}
+.wrap {
+    margin: 0 auto;
+    text-align: left;
+    width: 1200px;
+    position: relative;
+}
+.header,
+.content {
+    float: left;
+    width: 100%;	
+}
+.header{
+	margin: 25px 0;
+	border-bottom: 1px solid #fff;
+}
+
+.logo{
+	float: left;
+    width: 15%;
+    height: 80px;
+    background-image: url("../images/logo.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+}
+.nav{
+	float: left;
+	width: 85%;
+}
+.nav ul{
+	list-style: none;
+	min-width: 100%;
+	position: relative;
+	padding: 0;
+}
+.nav > ul > li{
+	float: left;
+	width: 25%;
+}
+.nav ul li a{
+	display: block;
+    float: left;
+    color: #fff;
+    width: 100%;
+    font-size: 26px;
+    font-weight: 100;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+	transition: color 0.3s;
+}
+.nav ul li.current a{
+    font-weight: 400;
+}
+
+.nav ul li:hover a{    
+    color: grey;
+}
+.text{
+    position: relative;
+    top: 125px;
+	width: 515px;
+    color: #fff;
+	font-size: 18px;
+    z-index: 2;
+}
+.text h1 {
+    color: #fff;
+    width: 100%;
+    font-size: 53px;
+    font-weight: 700;
+    line-height: 50px;
+    text-decoration: none;
+}
+.button{
+    float: left;
+    background: #DE8C3D;
+    color: #fff;
+    font-size: 26px;
+    text-transform: uppercase;
+    padding: 25px 50px;
+	border-radius: 10px;
+	transition: background 0.3s;
+    cursor: pointer;
+}
+.button:hover {
+	background: #e35301;
+}
+
+.hamburger{
+    position: absolute;
+    width: 1200px;
+    min-height: 875px;
+    background-image: url(../images/background.png);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    top: -20px;
+    right: -220px;
+    z-index: 1;
+}
+
+.text_about{
+	width: 70%;
+    height: 175px;
+    color: #fff;
+    font-size: 26px;
+    line-height: 1.5;
+}
+.vilkalozhka{
+	position: absolute;
+    width: 570px;
+    min-height: 875px;
+    background-image: url(../images/vilkalozhka.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    top: 30px;
+    right: -150px;
+    z-index: 1;
+}
+.prices h1{
+	color:#fff;
+    font-size: 52px;
+    margin: 25px 0px 45px 15px;
+}	
+.catalog {
+	padding: 0;
+}
+.catalog-products {
+	float: left;
+    width: 25%;
+    padding: 10px;
+    border-radius: 10px;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+.catalog-product {
+	float: left;
+    width: 100%;
+    height: 350px;
+    background: #cbb285;
+    border-radius: 10px;
+    padding: 0 20px 20px 20px;
+    box-shadow: 0 5px 20px 0 rgba(0,0,0,.07);
+    box-sizing: border-box;
+}
+.catalog-product img{
+    width: 100%;
+	height: 240px;
+}
+.catalog-title {
+    height: 35px;
+	font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.catalog-price{
+    font-size: 26px;
+    font-weight: 100;
+    margin-bottom:0;
+}
+.new {
+    position: relative;
+    background: #f3ede2;
+    padding: 20px;
+    border-radius: 10px;
+     margin-bottom: 25px;
+}
+.new h3{
+	height: 35px;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 20px;
+	border-bottom: 1px solid #ccc7be;
+}
+.new p{
+	font-size: 21px;
+    font-weight: 300;
+    margin-bottom: 20pt;
+}
+.more{
+    position: absolute;
+    background: #478f47;
+    right: 0;
+    bottom: 0;
+	color: #fff;
+	font-size: 14px;
+    font-weight: 100;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    border-radius: 10px 0;
+	transition: background 0.3s;
+    cursor: pointer;
+}
+
+.more:hover{
+    background: #00b300;
+}
